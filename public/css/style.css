@@ -1,0 +1,223 @@
+body{
+  
+    background-repeat: no-repeat;
+}
+.headSection, .headSection1{
+    width: 100%;
+    height: 650px;
+    margin: 0%;
+    background-image: url("images/cover.png"); 
+    border-bottom-style:double;
+}
+.headSection1{
+    position: relative;
+    
+
+}
+.centre{
+    width: 400px;
+    position: relative;
+    top: 300px;
+    display: flexbox;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    vertical-align: middle; 
+}
+.buttons{
+    position: absolute;
+    top: 10px;
+}
+.loginContainer{
+    width: 500px;
+    height: min-content;
+    background-color: white;
+    border: 1px solid white;
+    position: relative;
+    top: 200px;
+    left: 30%;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+}
+.loginContainer2{
+    width: 500px;
+    height: 380px;
+    background-color: white;
+    border: 1px solid white;
+    position: relative;
+    top: 200px;
+    left: 30%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.submit{
+
+    padding: 15px;
+    position: relative;
+    bottom: 10px;
+    animation-fill-mode: backwards;
+    background-color: lightgrey;
+    border-style: hidden;
+    font-family: monospace;
+    font-size: 14px;
+    
+}
+
+.email,.password,.name{
+    padding-left: 20px;
+
+} 
+h2{
+    margin-top: 2px;
+}
+.email, .password, .name{
+    padding: 15px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    bottom: 8px;
+    right: 10px;
+    justify-content: center;
+    width: 20rem;
+}
+.login, .register{
+    box-shadow: 
+    0 0 1px solid antiquewhite rgba(0, 0,0,.15) inset,
+    0 0 6px rgba(0, 0,0,.2)inset;
+    background-color: lightgray;
+    padding:8px;
+    font-size: 10pt;
+    border-radius: 4px;
+    font-family: inherit;
+    border: thin;
+    
+}
+
+h1{
+    color: beige;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;    
+    text-shadow: 50%;
+
+}
+.invisible{
+    visibility: hidden;
+}
+.alert{
+    background-color:khaki;
+    background-size: contain;
+}
+.close{
+    background-attachment: inherit;
+    background-color: khaki;
+    height: fit-content;
+    padding-block: inherit;
+    position: absolute;
+    border: khaki;
+    background-origin: padding-box;
+    mask-border-mode: inherit;
+    right: 6%;
+}
+
+
+
+@media only screen and (min-width:320px){
+    .headSection{
+        width: 100%;
+    
+    }
+
+    .centre{
+     width:310px;
+     margin: auto;
+     padding: 10px;
+     
+    }
+    h1{
+        font-size: 22pt;
+    }
+    .buttons{
+        right: 3px;
+        margin: auto;
+
+    }
+ }
+ @media only screen and (min-width:400px){
+    .headSection{
+        width: 100%;
+    
+    }
+    .centre{
+        width: 390px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+} 
+@media only screen and (min-width: 640px){
+    .headSection{
+        width: 100%;
+    
+    }
+    .centre{
+        width:400px;
+        margin: auto;
+    }
+    .buttons{
+        right: 20px;
+    }
+    h1{
+        font-size: 30pt;
+        font-stretch: expanded;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+
+}
+
+@media only screen and (min-width:961px)  {
+    .headSection{
+        width: 100%;
+    }
+    .centre{
+        width:400px;
+        margin: auto;
+    }
+    .buttons{
+        right: 20px;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:1025px) {
+    headSection{
+        width: 100%;
+    }
+    .centre{
+        width:400px;
+        margin: auto;
+    }
+    .buttons{
+        right: 20px;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:1281px){
+    headSection{
+        width: 100%;
+    }
+    .centre{
+        width:400px;
+        margin: auto;
+    }
+    .buttons{
+        right: 20px;
+        margin: auto;
+    }
+}
+
